@@ -52,15 +52,15 @@ ENV TECHNOLOGY=openvpn_udp \
 RUN echo "**** install security fix packages ****" && \
     echo "**** install mandatory packages ****" && \
     apk --no-cache --no-progress add \
-        bash=5.2.15-r5 \
-        curl=8.1.2-r0 \
-        iptables=1.8.9-r2 \
-        ip6tables=1.8.9-r2 \
-        jq=1.6-r3 \
-        shadow=4.13-r4 \
-        shadow-login=4.13-r4 \
+        bash \
+        curl \
+        iptables \
+        ip6tables \
+        jq \
+        shadow \
+        shadow-login \
         openvpn=2.6.5-r0 \
-        bind-tools=9.18.16-r0
+        bind-tools
 
 RUN echo "**** create process user ****" && \
     addgroup --system --gid 912 nordvpn && \
