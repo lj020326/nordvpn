@@ -497,6 +497,23 @@
     ]
   },
   {
+    "id": 100,
+    "name": "India",
+    "code": "IN",
+    "serverCount": 1,
+    "cities": [
+      {
+        "id": 4041548,
+        "name": "Mumbai",
+        "latitude": 18.975,
+        "longitude": 72.825833,
+        "dns_name": "mumbai",
+        "hub_score": 0,
+        "serverCount": 1
+      }
+    ]
+  },
+  {
     "id": 101,
     "name": "Indonesia",
     "code": "ID",
@@ -926,8 +943,17 @@
     "id": 202,
     "name": "Spain",
     "code": "ES",
-    "serverCount": 1,
+    "serverCount": 2,
     "cities": [
+      {
+        "id": 2572757,
+        "name": "Barcelona",
+        "latitude": 41.398371,
+        "longitude": 2.1741,
+        "dns_name": "barcelona",
+        "hub_score": 0,
+        "serverCount": 1
+      },
       {
         "id": 2619989,
         "name": "Madrid",
